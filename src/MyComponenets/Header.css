@@ -1,0 +1,51 @@
+.row-header {
+  margin: 0ps auto;
+  padding: 0px auto;
+}
+
+.jumbotron {
+  padding: 70px 30px;
+  margin: 0px auto;
+  background-color: purple;
+  color: floralwhite;
+  height: 80vh;
+}
+.address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+body {
+  padding-top: 50px;
+  z-index: 0;
+}
+.navbar-dark {
+  background-color: #512da8;
+}
+.tab-content {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.carousel-item {
+  height: 300px;
+  background: #4b16c7;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+.carousel-caption {
+  color: black;
+}
+.special-col {
+  color: #eb410d;
+  font-size: 26px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

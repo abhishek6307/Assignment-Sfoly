@@ -1,0 +1,36 @@
+#services {
+  margin: 34px;
+  display: flex;
+}
+#services .box {
+  border: 2px solid brown;
+  padding: 19px;
+  margin: 2px 12px;
+  border-radius: 13px;
+  background: #6b5252;
+  margin-bottom: 6px;
+}
+
+#services .box img {
+  height: 160px;
+  margin: auto;
+  display: block;
+}
+
+#services .box p {
+  font-family: "Bree Serif", serif;
+}
+.btn-success {
+  width: max-content;
+}
+
+@media (max-width: 1170px) {
+  #services .box {
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+  }
+  #services {
+    flex-direction: column;
+  }
+}

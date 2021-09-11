@@ -1,0 +1,28 @@
+#review-class {
+  border: 6px solid rgb(206, 76, 76);
+}
+#services {
+  margin: 34px;
+  display: flex;
+}
+#services .review-box {
+  border: 2px solid brown;
+  padding: 19px;
+  margin: 2px 12px;
+  border-radius: 13px;
+  box-shadow: 2px 2px crimson;
+  margin-bottom: 6px;
+}
+
+#services .box img {
+  height: 160px;
+  margin: auto;
+  display: block;
+}
+
+#services .review-box p {
+  font-family: "Bree Serif", serif;
+}
+.btn-success {
+  width: max-content;
+}

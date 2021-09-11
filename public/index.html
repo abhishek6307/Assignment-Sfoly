@@ -24,6 +24,10 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
     <title>React App</title>
   </head>
   <body>
@@ -39,5 +43,24 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+          $('#mycarousel').carousel({interval:1000});
+          $('#carouselButton').click(function(){
+              if($('#carouselButton').children('span').hasClass('fa-pause')){
+                  $('#mycarousel').carousel('pause');
+                  $('#carouselButton').children('span').removeClass('fa-pause');
+                  $('#carouselButton').children('span').addClass('fa-play');
+              }
+              else if($('#carouselButton').children('span').hasClass('fa-play')){
+                  $('#mycarousel').carousel('cycle');
+                  $('#carouselButton').children('span').removeClass('fa-play');
+                  $('#carouselButton').children('span').addClass('fa-pause');
+              }
+          });
+          
+      });
+  </script>
   </body>
 </html>
